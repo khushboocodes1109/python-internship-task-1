@@ -51,3 +51,6 @@ print("Role:", role)
 print("Date:", today_date)
 📸 Output
 The program is executed using the terminal, and the output is displayed showing the entered name, internship role, and the current date.
+
+![The image showns the ouput of the code](C:\Users\DELL\Pictures\Screenshots)
+
