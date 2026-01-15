@@ -1,57 +1,53 @@
-# python-internship-task-1
 # Task 1: Python Environment Setup & First Script 🐍
 
-## 📌 Objective
-The objective of this task is to set up a Python development environment and understand the basics of Python programming. This task focuses on Python installation, IDE usage, file execution, variables, user input/output, and code readability.
+## 📌 Task Description
+This task focuses on setting up a Python development environment and creating the first Python script. The aim is to understand Python installation, file execution, variables, user input/output, and basic IDE usage. It also helps in developing good coding practices such as commenting and readability.
 
 ---
 
-## 🛠 Tools & Technologies Used
-- Python (Official CPython Version)
+## 🛠 Tools Used
+- Python (Official CPython)
 - Visual Studio Code (VS Code)
 - Terminal / Command Prompt
 
-> Alternative tools explored: IDLE, Jupyter Notebook, Replit (free)
+---
+
+## 📂 Files Included
+- `hello_world.py`
+- Screenshot of terminal output
+- `README.md`
 
 ---
 
-## 📂 Project Structure
-Task-1/
-│
-├── hello_world.py
-├── output_screenshot.png
-└── README.md
-
-yaml
-Copy code
-
----
-
-## 🧾 Task Overview
-The following activities were performed as part of this task:
-
-- Installed Python from the official website and verified the installation using the terminal.
-- Installed VS Code and configured the Python extension for syntax highlighting and debugging.
-- Created a project folder to simulate a real-world development environment.
-- Created a Python script file to display basic information.
-- Used variables to store values instead of hardcoding data.
-- Modified the script to accept user input.
-- Executed the program using the terminal to understand execution flow.
-- Added comments to improve code readability and maintainability.
+## 🧠 What This Task Covers
+- Installing and verifying Python
+- Creating and running a Python file
+- Using variables instead of hardcoding values
+- Taking user input using `input()`
+- Printing output to the terminal
+- Understanding program execution flow
+- Writing readable code with comments
 
 ---
 
-## 📸 Output
-A screenshot of the program output executed in the terminal has been included in the repository as required.
+## 💻 Python Code
+```python
+# Task 1: Python Environment Setup & First Script
 
----
+# Importing datetime module to get today's date
+import datetime
 
-## ✅ Learning Outcomes
-By completing this task, I gained practical experience with:
-- Python environment setup
-- Running Python files from the terminal
-- Understanding variables and input/output
-- Using an IDE for development
-- Writing readable and well-structured code
+# Taking user input
+name = input("Enter your name: ")
+role = input("Enter your internship role: ")
 
----
+# Getting today's date
+today_date = datetime.date.today()
+
+# Printing the output
+print("\n--- Internship Details ---")
+print("Name:", name)
+print("Role:", role)
+print("Date:", today_date)
+📸 Output
+The program is executed using the terminal, and the output is displayed showing the entered name, internship role, and the current date.
